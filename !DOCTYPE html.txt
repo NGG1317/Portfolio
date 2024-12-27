@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Neel Gajjar, a Clinical Data Manager with expertise in Clinical Research, Data Management, and Regulatory Compliance.">
+    <meta name="keywords" content="Neel Gajjar, Clinical Data Manager, Clinical Research, Data Management, Regulatory Compliance">
+    <meta name="author" content="Neel Gajjar">
+    <title>Neel Gajjar - Clinical Data Manager Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #0077b6;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #023e8a;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #0077b6;
+            color: #fff;
+        }
+        .contact a {
+            color: #0077b6;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('nav a').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Neel Gajjar</h1>
+        <p>Clinical Data Manager | Expertise in Clinical Research & Data Management</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome! I'm Neel Gajjar, a Clinical Data Manager with a robust background in pharmacy and a passion for ensuring high-quality data in clinical research. With extensive experience managing clinical trials and optimizing data workflows, I thrive in roles that demand precision, compliance, and innovation.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>PG Diploma in Clinical Research, Drug Safety, and Pharmacovigilance - AAPS, Toronto (2021-2022)</li>
+                <li>Diploma in Chemical Laboratory Technician - Seneca College, North York (2016-2018)</li>
+                <li>Bachelor of Pharmacy - Gujarat Technological University, India (2012-2016)</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <h3>SGS Nutrasource (Nov 2023 - Current)</h3>
+            <p>Role: Clinical Data Manager</p>
+            <ul>
+                <li>Provided clinical data management support to the CRO Operations group.</li>
+                <li>Designed and validated eCRFs and clinical databases.</li>
+                <li>Developed and maintained critical data management documentation.</li>
+            </ul>
+            <h3>Centre for Ocular Research and Education (CORE) (Mar 2022 - Oct 2023)</h3>
+            <p>Role: Data Management Coordinator</p>
+            <ul>
+                <li>Reviewed and updated key data management documentation.</li>
+                <li>Performed UAT, report generation, and query management.</li>
+            </ul>
+            <!-- Add more roles here as needed -->
+        </section>
+        <section id="skills">
+            <h2>Core Competencies</h2>
+            <ul>
+                <li>Clinical Data Management Tools: Medrio, REDCap, Inform</li>
+                <li>Regulatory Knowledge: ICH-GCP, Health Canada Division 5</li>
+                <li>Project Management: MS Project, Power BI</li>
+            </ul>
+        </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Good Clinical Practice (2023)</li>
+                <li>Biomedical Research - CITI Program (2022)</li>
+                <li>TCPS2 Training (2023)</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:nggajjar17@outlook.com">nggajjar17@outlook.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/neelgajjar1710/" target="_blank">linkedin.com/in/neelgajjar1710</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Neel Gajjar | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
